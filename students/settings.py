@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'studentsapp',
-    #'test2api', # 新增的 app
+    'hw20200424', # 新增的 app test2api
     'func1api',
 
 ]

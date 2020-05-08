@@ -372,7 +372,7 @@ def sendVedio(event):  #傳送影像
     except:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text='發生錯誤！'))
         
-        def sendFlex(event):  #彈性配置
+def sendFlex(event):  #彈性配置
     try:
         bubble = BubbleContainer(
             direction='ltr',  #項目由左向右排列

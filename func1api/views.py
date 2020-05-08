@@ -68,9 +68,7 @@ def callback(request):
                     elif mtext == '@圖片地圖':
                         func.sendImgmap(event)
                     elif mtext == '@日期時間':
-                        func.sendDatetime(event)
-                        
-                        
+                        func.sendDatetime(event)                
                     elif mtext == '@彈性配置':
                         func.sendFlex(event)
     
